@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(143, 255, 240);
+    margin: 0px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.strike{
+    text-decoration: line-through;
+}
+li{
+    cursor:pointer;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: yellow;
+    width: 100%;
+    height: 60px;
+    margin-left: 0px;
+}
+label{
+    font-weight:400;
+}
